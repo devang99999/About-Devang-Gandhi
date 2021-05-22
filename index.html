@@ -421,7 +421,7 @@ align-items: center;
   align-items: center;
 }
 .intro{
-  height: 900px;
+  /* height: 300px; */
   width: 100%;
   /* background-color: red; */
   /* border: 1px red solid; */
@@ -494,6 +494,7 @@ align-items: center;
   list-style:none;
   font-size: 30px;
   padding-left: 1rem;
+  padding-top: 20px;
 }
 .education{
   color: teal;
@@ -501,6 +502,35 @@ align-items: center;
   width: 100%;
   border: 1px red solid;
   
+}
+footer{
+  color: whitesmoke;
+  position: relative;
+  top: 100vh;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.education{  
+  height: 700px;
+  width: 100%;
+  border: 1px red solid;
+  margin-top:50px;
+  box-sizing: border-box;
+}
+.edp1{
+  color:teal;
+  text-align: center;
+  border-bottom: 3px  #d5986f solid ;
+  font-size: 35px;
+}
+.edp2{
+  color: teal;
+  font-size: 25px;
+}
+.edp3{
+  color:white;
+  font-size: 25px;
+
 }
 footer{
   color: whitesmoke;
@@ -578,22 +608,37 @@ footer{
                         I am working to improve my frontend designing and fixing bugs on webpages. <br> I passed 10th class in 2020  and  I am currently studiying for Diploma Engennering <br> during lockdown I have completed frontend web devlopment course  and now I can design good webpages <br><p class="introptwo intropthree">So as my first project I am making this portfolio website with some cool css effects </p> </p>
                         <p class="intropone">PERSONAL INNFORMATION</p>
                         <!-- <hr class="line5"> -->
-                        <p class="pone"> Name:</p><br><p class="ptwo">Devang</p>
-                        <p class="pone">D.O.B:</p><br><p class="ptwo">09-07-2005</p>
-                        <p class="pone">Address:</p><br><p class="ptwo">Modasa,Gujarat,<br>India</p>
+                        <!-- <div style="display: flex;flex-direction: row;justify-content: space-evenly;"> -->
+                        <p class="pone"> Name:</p><p class="ptwo">Devang</p>
+                        <p class="pone">D.O.B:</p><p class="ptwo">09-07-2005</p>
+                        <p class="pone">Address:</p><p class="ptwo">Modasa,Gujarat,<br>India</p>
+                        <!-- </div> -->
+                        <!-- <div style="display: flex;flex-direction: row;justify-content: space-evenly;"> -->
                         <p class="pone">Contact:</p><br><p class="ptwo">+91 7016896136</p>
                         <p class="pone">E-mail:</p><br><p class="ptwo">devanggandhi2222@gmail.com</p>
                         <p class="pone">Freelance:</p><br><p class="ptwo">Available</p>
-                                             
+                        <!-- </div>                                              -->
                             <p class="p3">Languages known</p>
                             <li class="pli">HTML</li>
                             <li class="pli">CSS3</li>
                             <li class="pli">JAVASCRIPT</li>
                             <!-- <hr> -->
-                            <!-- <div id="Education" class="education"> -->
-                              <!-- kfgbs;ergbworigborigbwgbwgo -->
-                            <!-- </div> -->
-                     <!-- </div> -->
+                          </div>
+                          <div id="Education" class="education">
+                            <p class="edp1">Education</p> 
+                            <div style="display: flex;flex-direction: row; justify-content: space-evenly;">
+                            <p class="edp2">Schooling till 10th class </p>
+                            <p class="edp3">2007 to 2020</p>
+                            </div>
+                            <div style="display: flex;flex-direction: row; justify-content: space-evenly;">
+                              <p class="edp2">Pursuing Diploma in Computer Engennering  form <a style="text-decoration: none;" href="https//:growmore.ac.in">(GMFDE)</a></p>
+                              <p class="edp3">2020 to PRESENT</p>
+                          </div>
+                          <div style="display: flex;flex-direction: row; justify-content: space-evenly;">
+                            <p class="edp2">Completed Web Devlopment course from<a style="text-decoration: none;" href="https://shreehariinfo.tech/"> (Shri Hari Infotech)</a> </p>
+                            <p class="edp3">2007 to 2020</p>
+                          </div>
+                          </div>
                      
  </body>
  </html>

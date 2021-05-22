@@ -167,7 +167,7 @@ img:hover {
 
 .nava6 {
   width: 100%  ;
- margin-left: -10px ;
+  margin-left: -10px ;
 }
 .nava7 {
  height: 50px;
@@ -498,24 +498,12 @@ align-items: center;
 }
 .education{
   color: teal;
-  height: 700px;
+  height: 600px;
   width: 100%;
-/*   border: 1px red solid; */
-  
-}
-footer{
-  color: whitesmoke;
   position: relative;
-  top: 100vh;
-  font-size: 1.2rem;
-  text-align: center;
-}
-.education{  
-  height: 700px;
-  width: 100%;
-/*   border: 1px red solid; */
-  margin-top:50px;
-  box-sizing: border-box;
+  top: 1rem;
+  /* border: 1px red solid; */
+  
 }
 .edp1{
   color:teal;
@@ -530,13 +518,90 @@ footer{
 .edp3{
   color:white;
   font-size: 25px;
-
+  
+}
+.hr1{
+  border-top: 1px #d5986f solid;
+  position: relative;
+  top: -30px;
+}
+.ongoing{
+  position: relative;
+  top: 100px;
+  height: 300px;
+  width: 100%;
+  /* border: 1px  red solid; */
+}
+.onp1{
+  color: teal;
+  text-align: center;
+  font-size: 35px;
+  border-bottom: 3px #d5986f solid;
+}
+.onp2{
+  color: teal;
+}
+.onp3{
+  color: white;
+  font-size: 22px;
+  position: relative;
+  top: -20px;
+}
+.ondiv1{
+  color:white;
+  height: 10rem;
+  width: 100%;
+  padding-left: 10%;
+  /* border: 1px red solid; */
+  font-size: 27px;
+  font-weight: 700!important;
+}
+.ona1{
+  text-decoration: none;
+  /* color: teal; */
+  padding-left: 10px;
+}
+.experience{
+  position: relative;
+  top: 100px;
+  height: 300px;
+  width: 100%;
+  /* border: 1px  red solid; */
+}
+.exp1{
+  color: teal;
+  text-align: center;
+  font-size: 35px;
+  border-bottom: 3px #d5986f solid;
+}
+.exp2{
+  color: teal;
+}
+.exp3{
+  color: white;
+  font-size: 1.5rem;
+  position: relative;
+  top: -20px;
+}
+.exdiv1{
+  color:white;
+  height: 10rem;
+  width: 100%;
+  padding-left: 10%;
+  border: 1px red solid;
+  font-size: 27px;
+  font-weight: 700!important;
+}
+.exa1{
+  text-decoration: none;
+  /* color: teal; */
+  padding-left: 10px;
 }
 footer{
   color: whitesmoke;
   position: relative;
-  top: 100vh;
-  font-size: 1.2rem;
+  top: 25vh;
+  font-size: 23px;
   text-align: center;
 }
     </style>
@@ -565,35 +630,12 @@ footer{
         </div>
       </div>
     </div>
-    <div class="nava6">
-       <ul class="nava">
-         <!-- <li><a class="nava7" href="#">Facebook</a></li> -->
-         <!-- <li><a class="nava7" href="#">Blogger</a></li> -->
-         <!-- <li><a class="nava7" href="#">Linkedin</a></li> -->
-         <!-- </ul> -->
-         <!-- </div> -->
-         <!-- <hr class="line"> -->
-         <!-- <div class="fix"> -->
-           <!-- <div> -->
-             <!-- <div> -->
-               <!-- <div class="arrlin"> -->
-                 <!-- <a  class="main" href="#maindiv">____</a> -->
-                 <!-- <div class="ar
-                  row"> -->
-                  <!-- </div> -->
-                  <!-- <a  class="arrlin" href="#maindiv">.</a> -->
-                  <!-- <div> -->
-                    <!-- <div class="arrlin2"> -->
-                      <!-- <a  class="main2" href="#maindiv">||____|_|_|_|_|_|</a> -->
-                      <!-- <div class="arrow2"> -->
-                        <!-- </div> -->
-                      </div>
-                    </div>
+    
                     <div class="nava6">
                       <ul class="nava">
                         <li class="nava8"><a class="nava7" href="#Intro">Intro</a></li>
                         <li class="nava8"><a class="nava7" href="#Education">Education</a></li>        
-                        <li class="nava8"><a class="nava7" href="#Onging">Ongoing</a></li>
+                        <li class="nava8"><a class="nava7" href="#Ongoing">Ongoing</a></li>
                         <li class="nava8"><a class="nava7" href="#Experience">Experience</a></li> 
                       </ul>           
                     </div>
@@ -623,22 +665,36 @@ footer{
                             <li class="pli">CSS3</li>
                             <li class="pli">JAVASCRIPT</li>
                             <!-- <hr> -->
-                          </div>
-                          <div id="Education" class="education">
-                            <p class="edp1">Education</p> 
-                            <div style="display: flex;flex-direction: row; justify-content: space-evenly;">
-                            <p class="edp2">Schooling till 10th class </p>
-                            <p class="edp3">2007 to 2020</p>
                             </div>
-                            <div style="display: flex;flex-direction: row; justify-content: space-evenly;">
-                              <p class="edp2">Pursuing Diploma in Computer Engennering  form <a style="text-decoration: none;" href="https//:growmore.ac.in">(GMFDE)</a></p>
-                              <p class="edp3">2020 to PRESENT</p>
-                          </div>
-                          <div style="display: flex;flex-direction: row; justify-content: space-evenly;">
-                            <p class="edp2">Completed Web Devlopment course from<a style="text-decoration: none;" href="https://shreehariinfo.tech/"> (Shri Hari Infotech)</a> </p>
-                            <p class="edp3">2007 to 2020</p>
-                          </div>
-                          </div>
+                            <div id="Education" class="education">
+                              <p class="edp1">Education</p> 
+                              <!-- <div style="display: flex;flex-direction: row; justify-content: space-evenly;"> -->
+                                <!-- <p class="edp2">Schooling till 10th class </p> <p class="edp3">2007 to 2020</p> -->
+                              <!-- </div> -->
+                              <!-- <hr class="hr1"> -->
+                              <div style="display: flex;flex-direction: row; justify-content: space-evenly;">
+                                <p class="edp2">Pursuing Diploma in Computer Engennering  form <a style="text-decoration: none;" href="https//:growmore.ac.in">(GMFDE)</a></p>
+                                <p class="edp3">2020 to PRESENT</p>
+                              </div>                 
+                              <hr class="hr1">         
+                              <div style="display: flex;flex-direction: row; justify-content: space-evenly;">
+                                <p class="edp2">Completed Web Devlopment course from<a style="text-decoration: none;" href="https://shreehariinfo.tech/"> (Shri Hari Infotech)</a> </p>
+                                <p class="edp3">2007 to 2020</p>
+                              </div>
+                              <hr class="hr1">
+                            </div>
+                            <div id="Ongoing" class="ongoing">
+                              <p class="onp1">Ongoing Projects</p>
+                              <div class="ondiv1"><p class="onp2"> About Devang Gandhi<a class="ona1" href="(https://furiousdevang.netlify.app)">About Devang Gandhi</a></p> 
+                              <p class="onp3">A portfolio website for Devang Gandhi</p></div>
+                            </div> 
+                            <div id="Experience" class="experience">
+                              <p class="exp1">Experience</p>
+                              <div class="exdiv1"><p class="exp2"> About Devang Gandhi<a class="exa1" href="(https://furiousdevang.netlify.app)">About Devang Gandhi</a></p> 
+                              <p class="exp3">A portfolio website for Devang Gandhi</p></div>
+                              <hr>                          
+                            </div>
+                        </body>
                      
  </body>
  </html>

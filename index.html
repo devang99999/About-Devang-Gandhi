@@ -17,13 +17,15 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="D:\laragon\www\projects\p1\index1.css" />
+    <link rel="stylesheet" href="https://github.com/devang99999/About-Devang-Gandhi/blob/main/index.css" />
 
     <link
       rel="shortcut icon"
       href="https://raw.githubusercontent.com/devang99999/devang.in/main/favicon.jpg"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="index11.css" rel="stylesheet" id="theme-link">
     <title>About Devang Gandhi</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
@@ -40,14 +42,20 @@
 }
 .colour{
   background-color: rgb(25 ,22, 20);
+  color: black,white
+;
   height:3900px;
   width: 97.5%;
   padding: 0;
   /* margin: 0; */
   padding-top: 80px;
 }
+.dark-mode {
+  background-color: white;
+  color: black;
+}
 .one {
-  color: whitesmoke;
+  /* color: whitesmoke; */
   font-weight: 100;
   text-align: center;
   margin-left: auto;
@@ -61,7 +69,7 @@
   margin: 0;
 }
 .two {
-  color: whitesmoke;
+  /* color: whitesmoke; */
   font-weight: 100;
   text-align: center;
   margin-left: auto;
@@ -75,7 +83,7 @@
   margin-top: 20px;
 }
 .three {
-  color: whitesmoke;
+  /* color: whitesmoke; */
   font-weight: 100;
   text-align: center;
   margin-left: auto;
@@ -332,7 +340,7 @@ position: relative;
 top: 10px;
 }
 .para2{
-color: white;
+color: white,black;
 font-size: 25px;
 text-decoration: none;
 padding: 10px;
@@ -431,7 +439,7 @@ align-items: center;
   text-align: center;
 }
 .introptwo{
-  color: white;
+  /* color: white; */
   font-size: 1.5rem;
   /* padding-left: 150px; */
   align-items: center;
@@ -459,7 +467,7 @@ align-items: center;
   box-sizing: border-box;
   }
 .ptwo{
-  color: white;
+  /* color: white; */
     /* text-align: center; */
     font-size: 23px;
     margin: 0;
@@ -478,7 +486,7 @@ align-items: center;
   font-size: 2rem;
 }
 .pli{
-  color: white;
+  /* color: white; */
   list-style:none;
   font-size: 30px;
   padding-left:15px;
@@ -505,7 +513,7 @@ align-items: center;
   font-size: 25px;
 }
 .edp3{
-  color:white;
+  /* color:white; */
   font-size: 25px;
   
 }
@@ -535,13 +543,13 @@ align-items: center;
   color: teal;
 }
 .onp3{
-  color: white;
+  /* color: white; */
   font-size: 22px;
   position: relative;
   top: -20px;
 }
 .ondiv1{
-  color:white;
+  /* color:white; */
   height: 10rem;
   width: 100%;
   padding-left: 10%;
@@ -571,13 +579,13 @@ align-items: center;
   color: teal;
 }
 .exp3{
-  color: white;
+  /* color: white; */
   font-size: 1.5rem;
   position: relative;
   top: -20px;
 }
 .exdiv1{
-  color:white;
+  /* color:white; */
   height: 10rem;
   width: 100%;
   padding-left: 10%;
@@ -648,7 +656,7 @@ text-align: center;
   /* margin-left: -2.5%; */
 }
 .aexp:hover{
-  color: whitesmoke;
+  color: whitesmoke,black;
 }
 .aexp:active{
   background-color: mediumspringgreen;
@@ -694,7 +702,7 @@ text-align: center;
   background-color: white;    
 }
 footer{
-  color: whitesmoke;
+  /* color: whitesmoke; */
   position: relative;
   bottom: 650px;
   font-size: 18px;
@@ -723,10 +731,114 @@ footer{
 ::-webkit-scrollbar-thumb:hover {
   background: #d5986f; 
 }
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
 
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #008080;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #008080;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.light{
+  font-size: 20px;
+
+}
+/*.slpo{
+  position: sticky;
+  top: 60px;
+}*/ 
     </style>
 </head>
 <body id="Home" class="colour">
+  <div class="slpo">
+    <!-- <div class="icon-sun" style="clear: left; float: left"> -->
+      <!-- <div class="sun-burst" style="background-color: #2CC3B5"></div> -->
+      <!-- <div class="sun-core-outer"></div> -->
+      <!-- <div class="sun-core-inner" style="background-color: #2CC3B5"></div> -->
+    <!-- </div> -->
+    <i style="font-size:24px; color:teal; border:1x solid teal; position: relative;top: 10px;" class="fa">&#xf185;</i>
+    <label class="switch">
+      <input type="checkbox" onclick="myFunction()" checked>
+      <span class="slider round"></span>
+    </label>
+    <i style="font-size:24px; color:teal; border:1x solid teal; position: relative;top: 10px;" class="fa">&#xf186;</i>
+    <!-- <input type="checkbox" onclick="myFunction()"> -->
+    <!-- <checkbox onclick="myFunction()">Toggle dark mode</button> -->
+  </div>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+// Select the button
+const btn = document.querySelector(".btn-toggle");
+// Select the stylesheet <link>
+const theme = document.querySelector("#theme-link");
+
+// Listen for a click on the button
+btn.addEventListener("click", function() {
+  // If the current URL contains "ligh-theme.css"
+  if (theme.getAttribute("href") == "index11.css") {
+    // ... then switch it to "dark-theme.css"
+    theme.href = "index1.css == index11.css";
+  // Otherwise...
+  } else {
+    // ... switch it to "light-theme.css"
+    theme.href = "index1.css";
+  }
+});
+</script>
   <div  class="line2">
     <div class="flex1">
       <div>
@@ -807,7 +919,7 @@ footer{
                             </div>
                             <div id="Ongoing" class="ongoing">
                               <p class="onp1">Ongoing Projects</p>
-                              <div class="ondiv1"><p class="onp2"> About Devang Gandh <a class="ona1" href="https://furiousdevang.netlify.app">( <img class="edimg hov" srcset="https://raw.githubusercontent.com/devang99999/About-Devang-Gandhi/main/link.png" alt="link">  About Devang Gandhi)</a></p> 
+                              <div class="ondiv1"><p class="onp2"> About Devang Gandhi <a class="ona1" href="https://furiousdevang.netlify.app">( <img class="edimg hov" srcset="https://raw.githubusercontent.com/devang99999/About-Devang-Gandhi/main/link.png" alt="link">  About Devang Gandhi)</a></p> 
                               <p class="onp3">A portfolio website for Devang Gandhi</p></div>
                               <!-- <p class="onp1">Ongoing</p> -->
 
@@ -845,7 +957,7 @@ footer{
                          <!-- <div class="social"> -->
                            <!-- <ul style="list-style: none; display: flex;flex-direction: row;justify-content: space-evenly;"> -->
                              <!-- <li class="socli"><a href="https://github.com/devang99999"><img class="socimg2" srcset="https://raw.githubusercontent.com/devang99999/About-Devang-Gandhi/main/githubr.png" alt="github img"></a></li> -->
-                             <!-- <li class="socli"><a href="https://www.instagram.com/furiousdevang"><img class="socimg2 " srcset="https://raw.githubusercontent.com/devang99999/About-Devang-Gandhi/main/instagram.png" alt="instagram img"></a></li> -->
+                             <!-- <li class="socli"><a href="https://www.instagram.comm/furiousdevang"><img class="socimg2 " srcset="https://raw.githubusercontent.com/devang99999/About-Devang-Gandhi/main/instagram.png" alt="instagram img"></a></li> -->
                              <!-- <li class="socli"><a href="#"><img class="socimg2" srcset="https://raw.githubusercontent.com/devang99999/About-Devang-Gandhi/main/youtube.png" alt="youtube img"></a></li> -->
                              <!-- <li class="socli"><a href="#"><img class="socimg2" srcset="https://raw.githubusercontent.com/devang99999/About-Devang-Gandhi/main/blog.png" alt="blog img"></a></li> -->
                            <!-- </ul> -->

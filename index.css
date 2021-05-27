@@ -2,7 +2,6 @@
   box-sizing: border-box;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
- cursor: pointer;
  outline: 0;
  scroll-behavior: smooth;
  /* border-bottom: 2px red solid; */
@@ -620,6 +619,7 @@ text-align: center;
   font-size: 17px;
   text-align: center;
   font-weight: 900!important;
+  cursor: pointer;
   /* font-style: incon; */
   /* margin-left: -2.5%; */
 }
@@ -795,6 +795,7 @@ input:checked + .slider:before {
     align-items: center;
     background-color: #00ccc0;
     height: 500px;
+    
   }
   .liexp{
     width:120px;

@@ -2,6 +2,7 @@
   box-sizing: border-box;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
+ cursor: pointer;
  outline: 0;
  scroll-behavior: smooth;
  /* border-bottom: 2px red solid; */
@@ -582,6 +583,7 @@ align-items: center;
   justify-content: space-around ;
   justify-content: center; */
   list-style:none; 
+  cursor: pointer;
 }
 .navexp{
 /* background-color: teal; */
@@ -607,7 +609,7 @@ text-align: center;
   background-color:#f3f3f3;
 }
 .liexp:hover{
-  background-color: dodgerblue;
+  background-color: mediumspringgreen;
   color: whitesmoke;
 }
 .aexp{
@@ -619,7 +621,6 @@ text-align: center;
   font-size: 17px;
   text-align: center;
   font-weight: 900!important;
-  cursor: pointer;
   /* font-style: incon; */
   /* margin-left: -2.5%; */
 }
@@ -627,7 +628,7 @@ text-align: center;
   color: whitesmoke,black;
 }
 .aexp:active{
-  background-color: mediumspringgreen;
+  background-color: #04AA6D;
 }
 .social{
   /* border: 2px red solid; */
@@ -790,19 +791,22 @@ input:checked + .slider:before {
   
   .divexp{
     flex-direction: column;
-    width: 30%;
+    width: 60%;
     flex-wrap: wrap;
-    align-items: center;
-    background-color: #00ccc0;
+    /* align-items: center; */
+    background-color: dodgerblue;
     height: 500px;
-    
   }
   .liexp{
     width:120px;
     margin-top: 10px;
-    border: none;
+    background: transparent;
+    border: 3px white solid;
     font-size: 30px;
     text-align: center;
+  }
+  .aexp{
+    color: white;
   }
   
   .burger{

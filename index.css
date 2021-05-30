@@ -582,14 +582,14 @@ align-items: center;
   justify-content: space-around ;
   justify-content: center; */
   list-style:none; 
-  cursor: pointer;
+/*   cursor: pointer; */
 }
 .navexp{
 /* background-color: teal; */
 width: 90%;
 /* height: 1050px; */
 text-align: center;
-cursor: pointer;
+/* cursor: pointer; */
 }
 .liexp{
   float: left;
@@ -607,6 +607,7 @@ cursor: pointer;
   border-top-left-radius:10px ;
   justify-content: center;
   background-color:#f3f3f3;
+  cursor: pointer;
 }
 .liexp:hover{
   background-color: mediumspringgreen;

@@ -2,7 +2,6 @@
   box-sizing: border-box;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
- cursor: pointer;
  outline: 0;
  scroll-behavior: smooth;
  /* border-bottom: 2px red solid; */
@@ -590,6 +589,7 @@ align-items: center;
 width: 90%;
 /* height: 1050px; */
 text-align: center;
+cursor: pointer;
 }
 .liexp{
   float: left;

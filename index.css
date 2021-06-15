@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 *{
   box-sizing: border-box;
  -webkit-font-smoothing: antialiased;
@@ -5,7 +6,7 @@
  outline: 0;
  scroll-behavior: smooth;
  /* border-bottom: 2px red solid; */
- font-family: 'Ubuntu', sans-serif;
+ font-family: 'poppins', sans-serif;
 
 }
 .colour{

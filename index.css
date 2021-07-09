@@ -831,7 +831,6 @@ input:checked + .slider:before {
   }
   .switch {
     position: relative;
-    top: -45px;
     display: inline-block;
     width: 60px;
     height: 34px;

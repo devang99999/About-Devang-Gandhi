@@ -764,6 +764,7 @@ input:checked + .slider:before {
 .slic{
   position: relative;
   top: 10px;
+
 }
  .bline{
   width: 33px;
@@ -773,15 +774,24 @@ input:checked + .slider:before {
   /* color: black; */
 }
 .burger{
-  display: none;
+  /* display: none; */
   position: absolute;
   cursor: pointer;
-  right: 5%;
+  left: 5%;
   top:50px;
-} 
 
-@media only screen and (max-width :580px){
-   .h-nav-resp{ 
+} 
+.flx{
+  display: flex;
+    flex-direction: row;
+    /* width: max-content; */
+    /* width: 80%; */
+    justify-content: flex-end;
+    /* margin-top: -5%; */
+    position: relative;
+}
+ @media only screen and (max-width :580px){
+   /*.h-nav-resp{ 
     display:none; 
    } 
   .vclass-resp{
@@ -789,7 +799,7 @@ input:checked + .slider:before {
     flex-direction: column;
     width: 60%;
     align-items: center;  
-  }
+  } */
   
   .divexp{
     flex-direction: column;

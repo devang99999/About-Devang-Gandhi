@@ -8,10 +8,7 @@
     top: 0px;
     transition:  0.5s;
     margin-left: -20px;
-  }
- #nav:hover{
-    background-color:rgb(204, 100, 36); ;
-  }
+}
   #nav2 {
     position: relative;
     left: -1000px;
@@ -62,6 +59,9 @@
     position: fixed;
     font-weight: 900;
     font-size: 20px;
+  }
+.open:hover{
+    background-color:rgb(204, 100, 36); ;
   }
   .svg{
     position: relative;

@@ -59,10 +59,7 @@
     position: fixed;
     font-weight: 900;
     font-size: 20px;
-  }
-.open:hover{
-    background-color:rgb(204, 100, 36); ;
-  }
+}
   .svg{
     position: relative;
     top: 12px;

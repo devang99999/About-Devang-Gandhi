@@ -1,21 +1,44 @@
-#nav {
+.nav {
     display: flex;
-    background-color: #111;
+    background-color: #000000;
     height: 120vh;
-    width: 0px;
+    width: 0;
     position: fixed;
     flex-direction: column;
-    top: 0px;
+    top: -1000px;
     transition:  0.5s;
     margin-left: -20px;
+    transition: 0.3s ease;
 }
-  #nav2 {
+.navdar{
+  background-color: #fff;
+}
+  .nav2 {
     position: relative;
     left: -1000px;
     color: #fff;
     margin-top: 80px;
-    transition:  0.3s;
+    transition:  0.3s ease;
   }
+  .navd{
+    display: flex;
+    background-color: #111;
+    height: 120vh;
+    width: 45%;
+    position: fixed;
+    flex-direction: column;
+    top: 0px;
+    transition: 0.5s;
+    margin-left: -20px;
+    transition: 0.3s ease;
+}
+.nav2d {
+  position: relative;
+  left: 1px;
+  color: #fff;
+  margin-top: 80px;
+  transition:  0.3s ease;
+}
   .navli {
     list-style: none;
     width: 100%;
@@ -84,5 +107,22 @@
       text-transform: uppercase;
       font-weight: 700 !important;
       font-family: 'poppins',sans-serif;
+    }
+  }
+  @media only screen and (max-width :800px){
+    .navd{
+      display: flex;
+      background-color: #111;
+      height: 120vh;
+      width: 100%;
+      position: fixed;
+      flex-direction: column;
+      top: 0px;
+      transition: 0.5s;
+      margin-left: -20px;
+      transition: 0.3s ease;
+    }
+    .navlia{
+      font-size: 2rem;
     }
   }

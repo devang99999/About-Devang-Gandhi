@@ -1,7 +1,8 @@
 function darkmode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
-    document.getElementById("black").classList.toggle("navdar")
+    document.getElementById("acol").classList.toggle("acolb")
+    document.getElementById("acol2").classList.toggle("acolb")
  }
 
 function myFunction3() {

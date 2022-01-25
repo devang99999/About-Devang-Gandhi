@@ -18,6 +18,14 @@
   /*margin: 0; */
   padding-top: 80px;
 }
+.acol{
+  text-decoration: none;
+  color: #fff;
+}
+.acolb{
+  text-decoration: none;
+  color: #000;
+}
 .dark-mode {
   background-color: white;
   color: black;

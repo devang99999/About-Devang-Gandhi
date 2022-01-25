@@ -8,6 +8,7 @@
  /* border-bottom: 2px red solid; */
  font-family: 'poppins', sans-serif;
  /* transition: 1s ease; */
+ 
 }
 .colour{
   background-color: #131417;
@@ -17,10 +18,14 @@
   /* padding: 0; 
   /*margin: 0; */
   padding-top: 80px;
+  overflow-x: hidden;
 }
 .acol{
   text-decoration: none;
   color: #fff;
+}
+.acol2{
+  display: none;
 }
 .acolb{
   text-decoration: none;
@@ -807,6 +812,14 @@ input:checked + .slider:before {
     justify-content: flex-end;
     /* margin-top: -5%; */
     position: relative;
+}
+@media only screen and (max-width :800px){
+  .acol3{
+    display: none;
+  }
+  .acol2{
+    display: block;
+  }
 }
  @media only screen and (max-width :580px){
    /*.h-nav-resp{ 

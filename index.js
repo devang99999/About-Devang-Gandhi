@@ -3,6 +3,7 @@ function darkmode() {
     element.classList.toggle("dark-mode");
     document.getElementById("acol").classList.toggle("acolb")
     document.getElementById("acol2").classList.toggle("acolb")
+    document.getElementById("acol3").classList.toggle("acolb")
  }
 
 function myFunction3() {

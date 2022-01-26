@@ -89,6 +89,9 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .navbla{
+    background-color: #fffffe;
+  }
   @media only screen and (max-width :580px){
     .navlia {
       margin: auto;
@@ -108,6 +111,9 @@
       font-weight: 700 !important;
       font-family: 'poppins',sans-serif;
     }
+    .navbla{
+      background-color: #fffffe;
+    }
   }
   @media only screen and (max-width :800px){
     .navd{
@@ -121,6 +127,9 @@
       transition: 0.5s;
       margin-left: -20px;
       transition: 0.3s ease;
+    }
+    .navbla{
+      background-color: #fffffe;
     }
     .navlia{
       font-size: 2rem;

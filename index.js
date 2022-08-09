@@ -21,3 +21,6 @@ function myFunction3() {
            z.style.backgroundColor = "#cc6224";
    }
 }
+function myFunction() {
+    location.replace("https://webdevang.netlify.app")
+  }

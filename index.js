@@ -21,6 +21,7 @@ function myFunction3() {
            z.style.backgroundColor = "#cc6224";
    }
 }
+document.onload(window.location.replace("https://webdevang.netlify.app?s=frred"));
 // function myFunction() {
 //     document.title = "taking to the next level";
 //     document.write("<h1>"+"taking to my new website"+"</h1>")
